@@ -68,7 +68,7 @@ h1 {
 
 .big_image {
 	width: calc(40% + 150px);
-	background-image: url(../img/my_foto.jpg); 
+	background-image: url(../img/my_foto.JPG); 
 	box-sizing: border-box;
 	top: 0;
 	bottom: 0;
