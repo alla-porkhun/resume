@@ -87,10 +87,6 @@ h1 {
 	display: flex;
 }
 
-#more_inf {
-	/*margin: 15px;*/
-}
-
 .line {
 	color: #d4d1d1;
 }
@@ -203,6 +199,11 @@ h1 {
 	margin: 0 auto;
 }
 
+.card-header {
+	padding: 0;
+	justify-content: center;
+	display: flex;
+}
 ./*carousel-item {
 	height: 500px;
 
