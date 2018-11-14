@@ -3,16 +3,18 @@
 	color: rgba(21, 21, 21, 0.7);
 	
 }
-.container {
-	/*height: 95vh;*/
-}
-.row {
-	min-height: 50px;
-}
 
 .col {
-	right: 10px;
+	position: fixed;
+	width: 100%;
+	padding: 0;
+	z-index: 2222;
+	top: 0;
 }
+.row {
+	
+}
+
 .u-c {
 	text-transform: uppercase;
 }
@@ -20,6 +22,8 @@
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	z-index: 1;
+	padding: 0 130px;
+
 }
 .navbar-brand {
 	font-size: 30px;
@@ -187,7 +191,7 @@ h1 {
 
 #contacts {
 	margin-top: 100px;
-	height: 300px;
+	height: 330px;
 	background-color: #a23231;
 	font-size: "Open Sans", Arial, sans-serif;
 	color: #ffc55c;
@@ -195,8 +199,32 @@ h1 {
 
 .email {
 	font-size: 16px;
-	width: 200px;
+	width: 250px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.connection {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ifa {
+	height: 60px;
+	width: 60px;
+	font-size: 30px;
+	background: lightgrey;
+	color: #a23231;
+	/*скруляет элемент*/
+	border-radius: 50%;
+	display: flex;
+	/*для центровки элемента по вертикали*/
+	align-items: center;
+    /*Для центровки элемента по горизонтали*/
+	justify-content: center;
+	/*обтекание*/
+	float: left;
+	margin-right: 10px;
 }
 
 .card-header {
@@ -214,4 +242,36 @@ h1 {
 	justify-content: center;
 }*/
 
+/* PUPILS - TEACHER   PUPILS - TEACHER   PUPILS - TEACHER    PUPILS - TEACHER */
+.container {
+    padding-top: 50px;
+}
 
+.news img {
+    width: 100%;
+}
+.row span {
+    color: #fff;
+    font-size: calc (25%);
+    background: rgba(255, 255, 255, 0.54);
+    position: absolute;
+    left: 0;
+    top: calc(80% - 25px);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    color: #a23231;
+    font-weight: 700;
+
+}
+
+.pad {
+    padding-top: 40px;
+    padding-right: 40px;
+    /*min-height: 50px;*/
+}
+
+.row span:nth-child(2n){
+    top: calc(20% - 25px);
+   } 

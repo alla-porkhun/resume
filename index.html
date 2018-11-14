@@ -13,393 +13,79 @@
   </head>
   <body>
     
-	<div class="container">
-  		<div class="row">
-  			<div class="col">
+    <div class="col">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  				<a class="navbar-brand" href="#"><i class="fas fa-chalkboard-teacher"></i> AllaP</a>
 					<div class="offset-md-2"></div>
 
-		  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		  			<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		    			<span class="navbar-toggler-icon"></span>
 		  			</button>
 		  			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					    <ul class="navbar-nav w-100  u-c">
 					      <li class="nav-item active">
-					        <a class="nav-link" href="#">Головна <span class="sr-only">(current)</span></a>
+					        <a class="nav-link"  onclick="loadPage('more_inf.html')" href="#">Головна <span class="sr-only">(current)</span></a>
 					      </li>
 						  <li class="nav-item active">
-					        <a class="nav-link" href="#experience">Досвід<span class="sr-only">(current)</span></a>
+					        <a class="nav-link"  onclick="loadPage('experience.html')" href="#">Досвід<span class="sr-only">(current)</span></a>
 					      </li>
 					      <li class="nav-item active">
-					        <a class="nav-link" href="#education">Освіта<span class="sr-only">(current)</span></a>
+					        <a class="nav-link" onclick="loadPage('education.html')" href="#">Освіта<span class="sr-only">(current)</span></a>
 					      </li>
 					      <li class="nav-item active">
-					        <a class="nav-link" href="#self-education">Самоосвіта<span class="sr-only">(current)</span></a>
+					        <a class="nav-link" onclick="loadPage('self-education.html')" href="#">Самоосвіта<span class="sr-only">(current)</span></a>
 					      </li>
 						  <li class="nav-item dropdown">
 					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					          Досягнення
 					        </a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					          <a class="dropdown-item" href="#">учнів</a>
+					          <a class="dropdown-item" onclick="loadPage('pupils.html')" href="#">учнів</a>
 					          <a class="dropdown-item" href="#">вчителя</a>
 					          
 					        </div>
 					      </li>
-
-					     
 					      <li class="nav-item active">
 					        <a class="nav-link" href="#contacts">Контакти </a>
-					      </li>
-					      					      
+					      </li>  					      
 					    </ul>
 		  			</div>
 				</nav>
 			</div>
-       	</div>
-
-       	<div class="row2">
-    		<div class="text">
-    			<div class="name">
-    				<h1>Порхун Алла<br> Олексіївна</h1>
-					<h4  class="my_color">вчитель інформатики</h4>
-					<!-- <h3> ФМГ №17 ВМР</h3> -->
-				</div>
-    		</div>
-    		<div class="big_image">
-    		</div>
-  		</div>
-    
-
-		<div id="more_inf">
-			<hr class="line">
-			
-			<div class="table p-l-15">
-				<p class="more my_color u-c b-title">Загальна інформація</p>
-				<div class="row">
-					<div class="left p-l-15">Освіта</div>
-					<div class="right p-l-15">вища</div>
-				</div>
-
-				<div class="row">
-					<div class="left p-l-15">Навчальний заклад</div>
-					<div class="right p-l-15">ВДПУ імені Михайла Коцюбинського</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Спеціальність</div>
-					<div class="right p-l-15">Педагогіка і методика середньої освіти. Математика</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Кваліфікація</div>
-					<div class="right p-l-15">Вчитель математики та основ інформатики (диплом спеціаліста)</div>
-				</div>
-
-				<div class="row">
-					<div class="left p-l-15"></div>
-					<div class="right p-l-15">Магістр-дослідник математики (диплом магістра)</div>
-				</div>
-
-				<div class="row">
-					<div class="left p-l-15"></div>
-					<div class="right p-l-15">Аспірантура зі спеціальності «Обчислювальна математика» (свідоцтво)</div>
-				</div>
-
-				<div class="row">
-					<div class="left p-l-15">Стаж</div>
-					<div class="right p-l-15">12 років</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Кваліфікація</div>
-					<div class="right p-l-15">спеціаліст вищої категорії</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Педагогічне знання</div>
-					<div class="right p-l-15">учитель-методист</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Предмет</div>
-					<div class="right p-l-15">інформатика</div>
-				</div>
-				<div class="row">
-					<div class="left p-l-15">Місце роботи</div>
-					<div class="right p-l-15">КЗ "Фізико-математична гімназія №17 Вінницької міської ради"</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="big_line">
-		<span class="title">А тепер детальніше</span>
-	</div>
 
 	<div class="container">
-		<div id="experience">
-			<p class="more my_color u-c b-title">Професійний досвід</p>
-			<p class="work"> Фізико-математична гімназія №17 Вінницької міської ради, Вінниця</p>
-			<p class="post">Методист лабораторії інформаційних та комунікаційних технологій <br>      2007 – тепер.</p>
-			<ul>
-				<li>Розробка навчальних ресурсів дистанційної підтримки традиційного навчання в школі.
-				</li>
-				<li>Участь як методиста в розробці освітнього порталу, як тестувальника при перевірці та удосконаленні функціональності ресурсів, підготовка інформаційних матеріалів, включаючи звіти, інформаційні бюлетені, інструкції.
-				</li>
-				<li>Методична підтримка ресурсів освітнього порталу edu.vn.ua, який двічі (2015р. та 2017р.) займав І місце в вебометричному рейтингу у номінації “Веб-сайти ЗНЗ ”.
-				</li>
-				<li>Співпраця з учителями шкіл міста, консультування щодо змісту, створення, наповнення та підтримки дистанційних курсів, яке привело до наповнення на 50% ресурсів disted.edu.vn.ua, на 40% dorobok.edu.vn.ua, на 60% на olymp.edu.vn.ua, на 40% test.edu.vn.ua.
-				</li>
-				<li>Систематичне проведення курсів комп'ютерної грамотності для вчителів гімназії, курсів для вчителів початкових класів  та вчителів інформатики міста.
-				</li>
-			</ul>
-
-			<p class="post">Учитель інформатики<br>      2003 - 2005, 2007 – тепер.</p>
-			<ul>
-				
-				<li>Участь у міському конкурсі "Кращий навчально-методичний посібник". У 2013 році робота в номінації «Навчально-методичний посібник» оцінена дипломом другого ступеня. У 2018 році у номінації "Електронно-освітній ресурс" робота виборола перше місце та виграла Гран-прі "Подільську Вікторію-2018"</li>
-				<li>Восьмий результат у змаганні «Битва логіки» від газети «RIA» у 2015 році.</li>
-				<li>Проведення гурткової роботи по підготовці до олімпіад (учні неодноразово стали призерами міських та обласних етапів Всеукраїнських олімпіад з інформатики та інформаційних технологій).</li>
-				<li>Координатор Всеукраїнського проекту «Безпечний Інтернет», в результаті якого гімназія отримала сертифікат відповідності.</li>
-				<li>Проведення позакласних заходів (в тому числі консультацій, факультативів).
-				</li>
-				<li>Технічна підтримка колег, які подають роботи на конкурси різних рівнів (міські, обласні, Всеукраїнські).</li>
-				<li>Проведення семінарів для вчителів початкової школи міста щодо їх подальшого викладання предмету інформатики у школі першого рівня.</li>
-				<li>Постійне підвищення кваліфікації шляхом проходження масових онлайн-курсів, вебінарів.</li>
-		</div>
-
-		<div id="education">
-			<hr class="line">
-			<p class="more my_color u-c b-title">Освіта</p>
-			<p class="work">2004-2007</p>
-			<p>Вінницький державний педагогічний університет імені Михайла Коцюбинського. Аспірантура. Спеціальність: 	«Обчислювальна математика». Тема роботи «Поля еліптичних чисел».
-			</p>
-			<p class="work">2003-2004</p>
-			<p>Вінницький державний педагогічний університет імені Михайла Коцюбинського. Магістратура. Спеціальність: Педагогіка і методика середньої освіти. Математика. Кваліфікація: магістр-дослідник математики. Тема дипломної роботи «Математичне моделювання систем масового обслуговування з керованим вхідним потоком заявок». Диплом з відзнакою
-			</p>
-			<p class="work">1998-2003</p>
-			<p>Вінницький державний педагогічний університет імені Михайла Коцюбинського. Спеціальність: Педагогіка і методика середньої освіти. Математика. Кваліфікація: вчитель математики та основ інформатики. Тема дипломної роботи «Існування розв’язку лінійних функціональних рівнянь другого і третього порядку відносно циклічного відображення». Диплом з відзнакою
-			</p>
-		</div>
-		<div class="slider">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="6" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="img/programming/2014_11_20_stepik_с++.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="1 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2014_11_21_stepik_algorithms.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="2 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2014_12_10_stepik_python.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="3 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2015_03_25_prometheus_python.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="4 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2015_06_19_stepic_discrete_structures.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="5 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2015_07_03_prometheus_test.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="6 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2015_07_27_stepik_r.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="7 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2016_01_16_stepik_introduction_to_с++.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="8 slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="img/programming/2016_05_11_stepik_basics_python.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="9 slide">
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-		</div>	
-		<div id="self-education">
-			<hr class="line">
-			<p class="more my_color u-c b-title">Самоосвіта</p>
-
-
-			<div class="accordion" id="accordionExample">
-			  <div class="card">
-			    <div class="card-header" id="headingOne">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			          <p class="work">2018</p>
-			        </button>
-			      </h5>
-			    </div>
-
-			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-					<ul>
-						<li>Курс "Розроблення інтелектуальних ігор мовою Java" від викладача кафедри комп'ютерних систем управління ВНТУ Тетяни Грищук
-						</li>
-						<li>Курси Python, Java, С# на ресурсі <a href="https://www.sololearn.com/">SoloLearn﻿</a></li>
-						<li>Низка онлайн-тренінгів від компанії <a href="https://zno.ua/">ZNOUA</a>.</li>
-						<li>Дистанційні курси на платформі <a href="https://vumonline.ua/">ВУМ online</a>: Вступ до критичного мислення, Креативне мислення</li>
-						<li>Онлайн-курс "Ефективні презентації" на платформі Спільноти для навчання та викладання <a href="http://gohigher.org/">"Вище"</a>.</li>
-						<li>Онлайн-курси The Communication Course ("Комунікації"), The Digital Communication Course ("Цифрові комунікації"), The Strategic Planning Course ("Стратегічне планування﻿") та The Culture & Creativity Course ("Основи культурних та креативних індустрій﻿") у рамках програми <a href="https://www.culturepartnership.eu/">The EU-Eastern Partnership Culture and Creativity Programme</a> (ЄС та Східного партнерства "Культура та Креативність").</li>
-						<li>Онлайн-курс для вчителів початкової школи" тривалістю 60 годин від <a href="https://www.ed-era.com/">студії онлайн-освіти EdEra</a> та громадська спілка "Освіторія". </li>
-						<li>Дистанційний курс на платформі <a href="http://prometheus.org.ua/">http://prometheus.org.ua/</a> "Критичне мислення для освітян (30 годин)﻿". </li>
-					</ul>
-					</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="card">
-			    <div class="card-header" id="headingTwo">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			          <p class="work">2017</p>
-			        </button>
-			      </h5>
-			    </div>
-			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-						<ul>
-							<li> Курси підвищення кваліфікації <a href="http://maximumtest.ru/">Федеральної мережі учбових центрів MAXIMUM</a> та МГППУ (програма обсягом  72 години).</li>
-							<li>Навчання за програмою професійного розвитку вчителів "Методика розвитку критичного мислення учнів у викладанні різних предметів" від платформи з критичного мислення <a href="http://www.criticalthinking.expert/"> «КритМислОП»</a>.</li>
-							<li>Вебінари <a href="http://interactive.ranok.com.ua/">«Інтерактивної школи творчого вчителя»</a> від Видавництва "Ранок". </li>
-							<li>Вебінари освітнього порталу <a href="http://directacademia.ru/">«Директ-академія».</a>
-							</li>
-						</ul>
-					</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="card">
-			    <div class="card-header" id="headingThree">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			          <p class="work">2016</p>
-			        </button>
-			      </h5>
-			    </div>
-			    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-					<ul>
-						<li>Дистанційний курс на платформі <a href="http://prometheus.org.ua/">http://prometheus.org.ua/</a> «Основи Web UI розробки».</li>
-						<li>Дистанційні курси на платформі <a href="https://stepic.org/">https://stepic.org/</a> «Введення у програмування (C++)», «Python: основи та застосування».</li>
-						<li>Курс підвищення кваліфікації вчителів <a href="http://proteachers.ru/">http://proteachers.ru/</a> "Підведення підсумків навчального року".</li>
-						<li>Вебінари <a href="http://interactive.ranok.com.ua/">«Інтерактивної школи творчого вчителя»</a> від Видавництва "Ранок".</li>
-					</ul>
-					</p>
-			      </div>
-			    </div>
-			  </div>
-
-			
-			<div class="card">
-			    <div class="card-header" id="headingFour">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			          <p class="work">2015</p>
-			        </button>
-			      </h5>
-			    </div>
-			    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-					<ul>
-						<li>Дистанційні курси на платформі <a href="http://prometheus.org.ua/">http://prometheus.org.ua/</a> «Основи програмування (мова Python)», «Основи інформаційної безпеки», «Основи тестування програмного забезпечення».</li>
-						<li>Дистанційні курси на платформі <a href="https://stepic.org/">https://stepic.org/</a> «Алгоритми та структури даних», «Програмування на Python», «Дискретні структури».</li>
-						<li>Вебінари «Використання інтерактивної гри в період підготовки дитини до школи. Навчання в грі», «Використання інтерактивної гри на етапі обстеження та на початку навчального року. Поєднання інноваційних та традиційних методів» тощо.</li>
-					</ul>
-					</p>
-
-
-			      </div>
-			    </div>
-
-			    <div class="card">
-			    <div class="card-header" id="headingFive">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThreeFive">
-			          <p class="work">2014</p>
-			        </button>
-			      </h5>
-			    </div>
-			    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-					<ul>
-						<li>Курс для педагогів області за програмою «Очно-дистанційна школа інтерактивного навчання» за спеціальністю «Особливості використання інтерактивних дошок в навчально-виховному процесі» (72 години).</li>
-						<li>Очний курс за програмою Intel «Навчання для майбутнього» (версія 10.1).</li>
-						<li>Курс «Ефективне використання інтерактивних дошок Panasonic у навчальному процесі» на базі ВАНО.</li>
-						<li>Дистанційні курси на платформі <a href="https://stepic.org/">https://stepic.org/</a>  «Програмування мовою С++», «Алгоритми та структури даних», «Програмування мовою Python»</li>
-					</ul>
-					</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="card">
-			    <div class="card-header" id="headingSix">
-			      <h5 class="mb-0">
-			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-			          <p class="work">2011</p>
-			        </button>
-			      </h5>
-			    </div>
-			    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-			      <div class="card-body">
-			        <p class="post">
-						<ul>
-							<li>Дистанційний курс «Практикум тьютора» (80 годин) - сертифікат тьютора від Проблемної лабораторії дистанційної освіти <a href="http://www.kpi.kharkov.ua/ukr/">НТУ «Харківський політехнічний інститут»</a>.</li>
-						</ul>
-					</p>
-			      </div>
-			    </div>
-			  </div>
-			  </div>	
-		</div>
-		
-		<div id="self-education">
-			<hr class="line">
-			<p class="more my_color u-c b-title">Навички</p>
-			<p class="work">Комп'ютерні навички</p>
-			<p> Впевнене користування комп'ютером. Робота з освітніми базами даних.
-			</p>
-
-			<p class="work">Знання мов</p>
-			<p> Вільне володіння російською, українською мовами; зі словником - англійською мовою.
-			</p>
-			
-			<p class="work">Особисті якості</p>
-			<p> Відповідальність, організованість, вимогливість до себе та інших, здатність до самоосвіти, ініціативність, здатність працювати самостійно та в команді.
-			</p>
-		</div>
-
-	</div>	
-
-    </div>
+		<div class="content"> </div>
+	</div>
 
     <footer>
     	<div id="contacts">
 			<hr class="line">
 			<p class="more u-c b-title">Контакти</p>
 			<div class="email">
-				<p> Email: <span style="font-weight: 700;">all.forum17@gmail.com</span> </p>
-				<p>Тел.:<span style="font-weight: 700;">+38 (067) 755-54-43</span> </p>
-				<p>Соцмережі:</p>
+				<p> Email: 
+					<span style="font-weight: 700;">all.forum17@gmail.com</span> 
+				</p>
+				<p> Тел.:
+					<span style="font-weight: 700;">+38 (067) 755-54-43</span>
+				</p>
+				<p>Зв'язок через:</p>
+				<div class="connection">
+					<div class="ifa"> 
+						<a href="https://www.facebook.com/porkhun.alla">
+							<i class="fab fa-facebook-messenger"></i> 
+						</a>
+					</div>
+					<div class="ifa">
+						<a href="https://www.facebook.com/porkhun.alla">
+							<i class="fab fa-viber"></i>
+						</a>
+					</div>
+					<div class="ifa">
+						<a href="https://www.facebook.com/porkhun.alla">
+							<i class="fab fa-telegram-plane"></i>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
     </footer>
@@ -410,5 +96,7 @@
 			  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>
