@@ -1,102 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+    	<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <title>Резюме</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-    <div class="col">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  				<a class="navbar-brand" href="#"><i class="fas fa-chalkboard-teacher"></i> AllaP</a>
-					<div class="offset-md-2"></div>
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    	<title>Резюме</title>
+    	<link rel="stylesheet" href="css/style.css">
+  	</head>
+  	<body>
+  	    <div class="col">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  		<a class="navbar-brand" href="#">
+		  				<i class="fas fa-chalkboard-teacher"></i> AllaP
+		  		</a>
+				<div class="offset-md-2"></div>
+		  		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		  		</button>
+			  		
+			  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav w-100  u-c">
+						<li class="nav-item active">
+						    <a class="nav-link"  onclick="loadPage('more_inf.html')" href="#">
+						        Головна 
+						        <span class="sr-only">(current)</span>
+						    </a>
+						</li>
+						<li class="nav-item active">
+						    <a class="nav-link"  onclick="loadPage('experience.html')" href="#">
+						    	Досвід 
+						    	<span class="sr-only">(current)</span>
+						    </a>
+						</li>
+						<li class="nav-item active">
+						    <a class="nav-link" onclick="loadPage('education.html')" href="#">Освіта
+						        <span class="sr-only">(current)</span>
+						    </a>
+						</li>
+						<li class="nav-item active">
+						    <a class="nav-link" onclick="loadPage('self-education.html')" href="#">
+						        Самоосвіта
+						        <span class="sr-only">(current)</span>
+						    </a>
+						</li>
+						<li class="nav-item active">
+						    <a class="nav-link" onclick="loadPage('pupils.html')" href="#">
+						        Досягнення
+						        <span class="sr-only">(current)</span>
+						    </a>
+						</li>
+						<li class="nav-item active">
+						    <a class="nav-link" href="#contacts">Контакти </a>
+						</li>  					      
+					</ul>
+			  	</div>
+			</nav>
+		</div>
 
-		  			<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		    			<span class="navbar-toggler-icon"></span>
-		  			</button>
-		  			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					    <ul class="navbar-nav w-100  u-c">
-					      <li class="nav-item active">
-					        <a class="nav-link"  onclick="loadPage('more_inf.html')" href="#">Головна <span class="sr-only">(current)</span></a>
-					      </li>
-						  <li class="nav-item active">
-					        <a class="nav-link"  onclick="loadPage('experience.html')" href="#">Досвід<span class="sr-only">(current)</span></a>
-					      </li>
-					      <li class="nav-item active">
-					        <a class="nav-link" onclick="loadPage('education.html')" href="#">Освіта<span class="sr-only">(current)</span></a>
-					      </li>
-					      <li class="nav-item active">
-					        <a class="nav-link" onclick="loadPage('self-education.html')" href="#">Самоосвіта<span class="sr-only">(current)</span></a>
-					      </li>
-						  <li class="nav-item dropdown">
-					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					          Досягнення
-					        </a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					          <a class="dropdown-item" onclick="loadPage('pupils.html')" href="#">учнів</a>
-					          <a class="dropdown-item" href="#">вчителя</a>
-					          
-					        </div>
-					      </li>
-					      <li class="nav-item active">
-					        <a class="nav-link" href="#contacts">Контакти </a>
-					      </li>  					      
-					    </ul>
-		  			</div>
-				</nav>
-			</div>
-
-	<div class="container">
-		<div class="content"> </div>
-	</div>
-
-    <footer>
-    	<div id="contacts">
-			<hr class="line">
-			<p class="more u-c b-title">Контакти</p>
-			<div class="email">
-				<p> Email: 
-					<span style="font-weight: 700;">all.forum17@gmail.com</span> 
-				</p>
-				<p> Тел.:
-					<span style="font-weight: 700;">+38 (067) 755-54-43</span>
-				</p>
-				<p>Зв'язок через:</p>
-				<div class="connection">
-					<div class="ifa"> 
-						<a href="https://www.facebook.com/porkhun.alla">
-							<i class="fab fa-facebook-messenger"></i> 
-						</a>
-					</div>
-					<div class="ifa">
-						<a href="https://www.facebook.com/porkhun.alla">
-							<i class="fab fa-viber"></i>
-						</a>
-					</div>
-					<div class="ifa">
-						<a href="https://www.facebook.com/porkhun.alla">
-							<i class="fab fa-telegram-plane"></i>
-						</a>
+		<div class="container">
+			<div class="content"> </div>
+		</div>
+			
+    	<footer>
+    		<div id="contacts">
+				<hr class="line">
+				<p class="more u-c b-title">Контакти</p>
+				<div class="email">
+					<p> 
+						<i class="fa fa-envelope"></i>  
+						<span style="font-weight: 700;">all.forum17{at}gmail.com</span> 
+					</p>
+					<p> 
+						<i class="fas fa-mobile-alt"></i> 
+						<span style="font-weight: 700;">+38 (067) 755-54-43</span>
+					</p>
+					<div class="connection">
+						<div class="ifa"> 
+							<a href="https://www.facebook.com/porkhun.alla" alt="Facebook">
+								<i class="fab fa-facebook-messenger"></i> 
+							</a>
+						</div>
+						<div class="ifa">
+							<a href="viber://chat?number=+380677555443" alt="Viber">
+								<i class="fab fa-viber"></i>
+							</a>
+						</div>
+						<div class="ifa">
+							<a href="http://t.me/porkhun_alla" alt="Telegram">
+								<i class="fab fa-telegram-plane"></i>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-
-  </body>
+		</footer>
+    	<!-- Optional JavaScript -->
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    	<script src="js/main.js"></script>
+  	</body>
 </html>
