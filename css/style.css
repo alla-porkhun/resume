@@ -373,6 +373,17 @@ ul{
 	margin-right: 10px;
 }
 
+.mesenger:hover{
+	color: #007ff7;
+}
+
+.viber:hover{
+	color: #784f98;
+}
+
+.telegram:hover{
+	color: #47ade0;
+}
 
 .accordion{
 	margin-top: 30px;
