@@ -7,3 +7,4 @@ function loadPage(page){
     $('#navbarNavDropdown').collapse('toggle');
 }
 
+
