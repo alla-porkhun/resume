@@ -345,8 +345,7 @@ ul{
 embed{
 	width: 800px;
 	max-width: 95%;
-	height: 660px;
-	max-height: 90%;
+	min-height: 300px;
 	background: #fff;
 }
 
@@ -475,4 +474,9 @@ button:active{
 
 .achievement{
 	padding-top: 30px;
+}
+
+.light-color{
+	background: var(--base-light-color);
+
 }
