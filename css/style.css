@@ -330,9 +330,29 @@ ul{
       font-size: 20px;
 }
 
-.slider, {
+.slider {
 	max-width: 700px;
 	margin: 40px auto;
+}
+
+.adapt{
+	display: flex;
+    justify-content: center;
+
+}
+
+.figure {
+    width: 80%; 
+    background: #e9ecef;
+    /*#f0f0f0;  Цвет фона */
+    /*border-radius: 5px; */
+    padding: 1%; /* Поля */
+    margin: 5px;
+    
+}
+
+.figure img {
+	width: 100%; 
 }
 
 .embed-swf{
