@@ -7,4 +7,7 @@ function loadPage(page){
     $('#navbarNavDropdown').collapse('toggle');
 }
 
+function loadNews(page){
+    $(".content").load(page);
+}
 

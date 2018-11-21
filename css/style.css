@@ -296,6 +296,10 @@ h1{
 	color: auto;
 }
 
+.text-center{
+	text-align: center;
+}
+
 a{
 	color: var(--base-dark-color);
 }
