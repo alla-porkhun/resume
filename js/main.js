@@ -11,3 +11,4 @@ function loadNews(page){
     $(".content").load(page);
 }
 
+

@@ -168,7 +168,7 @@ h1{
 }
 
 .content{
-	margin-top: 64px;
+	margin-top: 63px;
 }
 
 .inf_row:nth-child(2n){
@@ -469,7 +469,7 @@ button:active{
 
 .pad{
 	padding-top: 40px;
-	padding-right: 40px;
+	/*padding-right: 40px;*/
 }
 
 .achievement{
@@ -478,5 +478,4 @@ button:active{
 
 .light-color{
 	background: var(--base-light-color);
-
 }
