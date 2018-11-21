@@ -337,7 +337,8 @@ ul{
 
 .embed-swf{
 	max-width: 95%;
-	widht: 800px;
+	max-height: 90%;
+	display: flex;
 }
 
 .carousel-control-prev, .carousel-control-next{
