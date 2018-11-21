@@ -338,6 +338,8 @@ ul{
 .embed-swf{
 	display: flex;
 	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 embed{
