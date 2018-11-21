@@ -335,11 +335,16 @@ ul{
 	margin: 40px auto;
 }
 
+.embed-swf{
+	justify-content: center;
+}
+
 embed{
 	width: 800px;
 	max-width: 95%;
 	height: 660px;
 	max-height: 90%;
+	background: #fff;
 }
 
 .carousel-control-prev, .carousel-control-next{
