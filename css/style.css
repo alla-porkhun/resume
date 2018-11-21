@@ -336,6 +336,7 @@ ul{
 }
 
 .embed-swf{
+	display: flex;
 	justify-content: center;
 }
 
