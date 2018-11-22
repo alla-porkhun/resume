@@ -78,7 +78,7 @@ body{
 	}
 }
 
-@media (min-width : 769px) {
+@media (min-width: 769px) {
 	.my_row {
 		height: 100vh;
 		max-height: 500px;
@@ -472,9 +472,13 @@ button:active{
 .news img{
     width: 100%;
 }
+
+.pad{
+	padding-top: 40px;
+}
+
 .pad span{
-    color: #fff;
-    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    color: #fff;  
     background: rgba(255, 255, 255, 0.54);
     position: absolute;
     left: 0;
@@ -484,13 +488,28 @@ button:active{
     z-index: 2;
     color: var(--base-dark-color);
     font-weight: 700;
-    top: calc(85% - 25px);
+    bottom: 15px;
 }
 
-.pad{
-	padding-top: 40px;
-	/*padding-right: 40px;*/
+@media (min-width: 1025px) {
+	.pad span {
+		font-size: 30px;
+	}
 }
+
+@media (max-width: 1024px) {
+	.pad span {
+		font-size: calc(16px + (24 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+	}
+}
+
+@media (max-width: 480px) {
+	.pad span {
+		font-size: 16px;
+	}
+}
+
+
 
 .achievement{
 	padding-top: 30px;
