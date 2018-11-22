@@ -172,7 +172,7 @@ h1{
 }
 
 .inf_row:nth-child(2n){
-    background: #f0f0f0; /* Цвет фона */
+    background: #f0f0f0; 
 } 
 
 .inf_row{
@@ -338,17 +338,13 @@ ul{
 .adapt{
 	display: flex;
     justify-content: center;
-
 }
 
 .figure {
     width: 80%; 
     background: #e9ecef;
-    /*#f0f0f0;  Цвет фона */
-    /*border-radius: 5px; */
-    padding: 1%; /* Поля */
+    padding: 1%; 
     margin: 5px;
-    
 }
 
 .figure img {
@@ -360,7 +356,6 @@ ul{
 	justify-content: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	
 }
 
 embed{
@@ -400,24 +395,16 @@ embed{
 	font-size: 32px;
 	background: #fff;
 	color: var(--base-dark-color);
-	/*скруляет элемент*/
 	border-radius: 50%;
 	display: flex;
-	/*для центровки элемента по вертикали*/
 	align-items: center;
-    /*Для центровки элемента по горизонтали*/
 	justify-content: center;
-	/*обтекание*/
 	float: left;
 	margin-right: 10px;
 }
 
 .messenger:hover{
 	color: #007ff7;
-}
-
-.viber:hover{
-	color: #784f98;
 }
 
 .telegram:hover{
@@ -437,16 +424,14 @@ embed{
 	background-image: linear-gradient(rgba(255,255,255,.2) 1px, rgba(255,255,255,0) 1px), linear-gradient(90deg,rgba(255,255,255,.2) 1px, rgba(255,255,255,0) 1px);
 	background-size: 10px 10px;
 	border-radius: 5px;
-	
 }
 
 .card:after{
-  content: "";
-  display: inline-block;
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  /*background: repeating-linear-gradient(45deg, var(--base-dark-color), var(--base-light_color) 10px, #D7DFED 20px);*/
+	content: "";
+	display: inline-block;
+	position: absolute;
+	height: 5px;
+	width: 100%;
 }
 
 .btn{
@@ -466,8 +451,6 @@ button:active{
 	width: 80%!important;
 	justify-content: center;
 }
-
-/* PUPILS - TEACHER   PUPILS - TEACHER   PUPILS - TEACHER    PUPILS - TEACHER */
 
 .news img{
     width: 100%;
@@ -508,8 +491,6 @@ button:active{
 		font-size: 16px;
 	}
 }
-
-
 
 .achievement{
 	padding-top: 30px;

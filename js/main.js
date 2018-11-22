@@ -10,5 +10,3 @@ function loadPage(page){
 function loadNews(page){
     $(".content").load(page);
 }
-
-
