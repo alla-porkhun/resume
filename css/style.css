@@ -340,16 +340,24 @@ ul{
     justify-content: center;
 }
 
-.figure {
-    width: 80%; 
+.figure, .figure2 {
     background: #e9ecef;
     padding: 1%; 
-    margin: 5px;
+    margin: 5px auto;
 }
 
-.figure img {
+.figure {
+	width: 80%; 
+}
+
+.figure img, .figure2 img {
 	width: 100%; 
 }
+
+.figure2 {
+	width: 60%; 
+}
+
 
 .embed-swf{
 	display: flex;
